@@ -1,0 +1,13 @@
+{
+  "overspeed": {
+    "escalate_if_count": 3,
+    "window_mins": 60
+  },
+  "feedback_negative": {
+    "escalate_if_count": 2,
+    "window_mins": 1440
+  },
+  "compliance": {
+    "auto_close_if": "document_valid"
+  }
+}
